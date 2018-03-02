@@ -22,7 +22,7 @@ Apart from having nodejs installed and other usual stuff you will need to
 
  - The code includes a **.env** file. You will need to set the appropriate variables like so.
 
-    ``INFURA_URL_API_KEY=https://ropsten.infura.io/1t7lIne9gTwmPs9Twsd5``
+    ``INFURA_URL_API_KEY=https://ropsten.infura.io/1t7lIne9gTwmPs9Twsd5``<br/>
     ``MNEMONIC=one two three four five six seven eight nine ten eleven twelve``
 
 *Needless to say the above file should never be checked in or even logged. If you do that in production you will be robbed.*
