@@ -1,14 +1,14 @@
 # Simple Smart Contract Deployer
 
-Deploy smart contracts without running a local geth node using [web3 1.0.0](https://web3js.readthedocs.io/en/1.0/) and [nodejs](https://nodejs.org/en/).
+Deploy Ethreum smart contracts without running a local geth node using [web3 1.0.0](https://web3js.readthedocs.io/en/1.0/) and [nodejs](https://nodejs.org/en/).
 
 You will find this interesting if
- - you need a working example using [web3 1.0.0](https://web3js.readthedocs.io/en/1.0/). As of this doc checkin there plenty of code on the web using [web3 0.x.x](https://github.com/ethereum/wiki/wiki/JavaScript-API) but I couldn't find a complete working example using web3 1.0.0. (Maybe I didn't look hard enough!)
+ - you need a working example using [web3 1.0.0](https://web3js.readthedocs.io/en/1.0/). As of this doc checkin there is plenty of code on the web using [web3 0.x.x](https://github.com/ethereum/wiki/wiki/JavaScript-API) but I couldn't find a complete working example using web3 1.0.0. (Maybe I didn't look hard enough!)
  - you do not want to run a local node - either to connect to [Ropsten](https://ropsten.etherscan.io/)/[Rinkeby](https://rinkeby.etherscan.io/) or even [testrpc/ganache](http://truffleframework.com/ganache/) .   
 
 Disclaimers :  
 
- 1. This is not production code and is not secure. It also does not follow best practices for nodejs app development. This is simply an example deliberately stripped down for clarity. 
+ 1. This is not production code and is not secure. It also does not follow best practices for nodejs app development. This is simply an example - deliberately stripped down for clarity. 
  2. The simpler way to deploy the contract is to use [truffle console](#using-truffle-console) of course. This only demonstrates a way it can be done via nodejs. 
 
 ## Getting Started
